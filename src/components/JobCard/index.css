@@ -1,0 +1,84 @@
+.job-item-logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.job-card-company-image {
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+}
+.title {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+.card-rating {
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+.job-card-container {
+  background-color: #272727;
+  padding: 20px;
+  border: none;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.package-location-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  width: 100%;
+}
+
+.location-container {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.employment-container {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+.employment-type {
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-right: 10px;
+}
+.location {
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-right: 10px;
+}
+.location-icon {
+  width: 26px;
+  height: 40px;
+}
+.email-icon {
+  height: 30px;
+  width: 40px;
+}
+.package {
+  font-family: 'Roboto';
+  font-size: 20px;
+  flex-grow: 1;
+  text-align: right;
+}
+.job-card-description {
+  font-family: 'Roboto';
+  font-size: 13px;
+}
+.job-card-description-heading {
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+.job-card-nav-link {
+  text-decoration: none;
+  color: #ffffff;
+}

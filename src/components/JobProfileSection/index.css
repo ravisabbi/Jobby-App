@@ -1,0 +1,123 @@
+.job-profile-section-container {
+  padding: 40px;
+}
+.rating-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-input-lg {
+  background-color: transparent;
+  height: 100%;
+  width: 100%;
+  border: none;
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 18px;
+  padding-left: 5px;
+  flex-grow: 1;
+  outline: none;
+}
+.search-bar-container {
+  width: 60%;
+  height: 35px;
+  border: 2px solid #64748b;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  display: none;
+}
+.search-ion {
+  color: #64748b;
+}
+.search-icon-lg-btn {
+  border: none;
+  height: 100%;
+  width: 50px;
+  background-color: #272727;
+}
+
+.job-card-list {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.no-jobs-image {
+  width: 50%;
+}
+.no-jobs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  flex-grow: 1;
+  margin-top: 40px;
+}
+.no-jobs-found-heading {
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.no-jobs-description {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #cbd5e1;
+}
+
+.jobs-failure-view-image {
+  width: 40%;
+}
+
+.jobs-failure-view-heading {
+  font-weight: 'Roboto';
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.jobs-failure-view-description {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #7e858e;
+}
+.jobs-failure-view-container {
+  flex-grow: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .job-profile-section-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .jobs-section-container {
+    width: 50%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    min-height: 90vh;
+  }
+  .search-bar-container {
+    display: flex;
+  }
+  .jobs-failure-view-heading {
+    font-size: 35px;
+    text-align: center;
+  }
+}

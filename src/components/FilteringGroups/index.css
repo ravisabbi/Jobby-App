@@ -1,0 +1,99 @@
+.employment-type-list {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.type-of-employment-heading {
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 100px;
+  color: #ffffff;
+}
+.check-box {
+  width: 13px;
+  height: 13px;
+  margin-right: 10px;
+}
+.employment-label {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #ffffff;
+}
+
+.employment-type-item {
+  display: flex;
+
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.salary-list {
+  list-style: none;
+  padding-left: 0px;
+}
+.salary-heading {
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 100px;
+  color: #ffffff;
+}
+.radio-btn {
+  width: 13px;
+  height: 13px;
+  margin-right: 10px;
+}
+
+hr {
+  background-color: #64748b;
+  height: 2px;
+  border: none;
+}
+.salary-label {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #ffffff;
+}
+
+.search-bar-container-mobile {
+  width: 100%;
+  height: 25px;
+  border: 2px solid #64748b;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.search-input-mobile {
+  background-color: transparent;
+  height: 100%;
+  width: 100%;
+  border: none;
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 13px;
+  padding-left: 5px;
+  flex-grow: 1;
+  outline: none;
+}
+.search-icon-mobile-btn {
+  height: 100%;
+
+  border: none;
+
+  background-color: #272727;
+}
+
+.search-icon {
+  color: #64748b;
+}
+
+@media (min-width: 768px) {
+  .filtering-groups-container {
+    width: 40%;
+    align-self: flex-start;
+    max-width: 250px;
+    margin-right: 40px;
+  }
+  .search-bar-container-mobile {
+    display: none;
+  }
+}
